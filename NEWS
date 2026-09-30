@@ -1,10 +1,12 @@
 News file of package TraMineR
 
 ## =========
-Version 2.3-15 [2026-09-16]
+Version 2.3-15 [2026-09-30]
 
 Misc.
-  - No change
+  - Development version now on GitHub.
+  - Fixed typos in seqdist help page.
+
 
 ## =========
 Version 2.2-14 [2026-09-15]

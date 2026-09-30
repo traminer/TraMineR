@@ -1,12 +1,14 @@
 \name{NEWS}
 \title{NEWS file for the TraMineR package}
 
-\section{Changes in version 2.3-15 [2026-09-16] }{
+\section{Changes in version 2.3-15 [2026-09-30] }{
 
     \subsection{Misc.}{
         \itemize{
             \item
-            No change.
+            Development version now on GitHub.
+            \item
+            Fixed typos in \code{seqdist} help page.
         }
     }
 }

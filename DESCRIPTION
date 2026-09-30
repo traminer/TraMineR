@@ -1,6 +1,6 @@
 Package: TraMineR
 Version: 2.3-15
-Date: 2026-09-16
+Date: 2026-09-30
 Title: Trajectory Miner: a Sequence Analysis Toolkit
 Authors@R: c(
   person("Alexis", "Gabadinho",
@@ -27,4 +27,4 @@ License: GPL (>= 2)
 URL: https://traminer.unige.ch
 Encoding: UTF-8
 Maintainer: Gilbert Ritschard <gilbert.ritschard@unige.ch>
-RoxygenNote: 7.2.3
+Config/roxygen2/version: 8.0.0

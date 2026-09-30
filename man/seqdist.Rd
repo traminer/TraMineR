@@ -328,7 +328,7 @@ seqdist(seqdata, method, refseq = NULL, norm = "none", indel = "auto", sm = NULL
   Let \eqn{d} be the distance, \eqn{m} the maximum possible of the distance
   given the lengths \eqn{p} and \eqn{q} of the two sequences, and \eqn{k} the
   length of the longer sequence. Normalization \code{"maxlength"} is \eqn{d/k}
-  (Abbott's normalization), \code{"gmean"} is \eqn{1-(m-d)/(p*q)^.5} (Elzinga's
+  (Abbott's normalization), \code{"gmean"} is \eqn{1-(m-d)/(p*q)^{1/2}} (Elzinga's
   normalization), \code{"maxdist"} is \eqn{d/m}, and "YujianBo" is \eqn{2*d/(m+d)}.
   For more details, see  \cite{Gabadinho et al. (2009, 2011)}.
   Actually, to avoid negative outcomes, the length \eqn{p}, \eqn{q}, and \eqn{k} are
