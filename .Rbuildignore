@@ -1,6 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE$
-^*\.Proj$
 ^\.gitattributes$
 ^\.gitignore$
+^\.Rbuildignore$
+^\.Rhistory$
