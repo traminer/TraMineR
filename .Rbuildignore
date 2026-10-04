@@ -6,3 +6,4 @@
 ^\.Rbuildignore$
 ^\.Rhistory$
 ^package$
+^scripts$

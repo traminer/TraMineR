@@ -1,4 +1,4 @@
-# copy tar.gz and zip files from parent to package folder
+# copy tar.gz and zip files from parent to topath folder
 # assumes we are at root of the package
 
 ## usage example
@@ -8,10 +8,10 @@
 # package_copy("TraMineR_2.3-15", remove=FALSE)
 # setwd(prevwd)
 
-package_copy <- function(package, remove=FALSE, copy.date=TRUE, overwrite=TRUE){
+package_copy <- function(package, topath="package\\", remove=FALSE, copy.date=TRUE, overwrite=TRUE){
   fromtarfile <- paste0("..\\",package,".tar.gz")
   if (file.exists(fromtarfile)){
-    totarfile <- paste0("package\\",package,".tar.gz")
+    totarfile <- paste0(topath,package,".tar.gz")
     copy1 <- file.copy(from=fromtarfile, to=totarfile, 
                        copy.date=copy.date, overwrite=overwrite)
     if (remove) {
@@ -22,7 +22,7 @@ package_copy <- function(package, remove=FALSE, copy.date=TRUE, overwrite=TRUE){
   }
   fromzipfile <- paste0("..\\",package,".zip")
   if (file.exists(fromzipfile)){
-    tozipfile <- paste0("package\\",package,".zip")
+    tozipfile <- paste0(topath,package,".zip")
     copy2 <- file.copy(from=fromzipfile, to=tozipfile, 
                        copy.date=copy.date, overwrite=overwrite)
     if (remove){
