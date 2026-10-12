@@ -2,11 +2,13 @@
 
 ## Sequence Analysis Toolkit
 
+### Stable version
+
 The stable version of TraMineR is available on the CRAN at https://cran.r-project.org/package=TraMineR.
 
 It can be installed from within your R environment by entering command `pak::pak("TraMineR")`.
 
-
+### Development version
 
 The development version of TraMineR is available at https://github.com/traminer/TraMineR/
 
