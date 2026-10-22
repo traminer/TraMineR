@@ -28,7 +28,7 @@ For 'stlab<-' the updated sequence object.
 data(actcal)
 actcal.seq <- seqdef(actcal,13:24)
 
-## Retrieving the color palette
+## Retrieving long state labels
 stlab(actcal.seq)
 seqiplot(actcal.seq)
 
