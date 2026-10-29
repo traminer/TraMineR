@@ -4,8 +4,10 @@
 ## usage example
 
 # prevwd <- getwd()
+# # assuming latest package is installed
+# ver <- packageVersion("TraMineR")
 # setwd("path to root of package")
-# package_copy("TraMineR_2.3-15", remove=FALSE)
+# package_copy(paste0("TraMineR_",ver), remove=FALSE)
 # setwd(prevwd)
 
 package_copy <- function(package, topath="package\\", remove=FALSE, copy.date=TRUE, overwrite=TRUE){
